@@ -32,6 +32,40 @@ li.nav-item a:hover {
     color: #35CDE8;;
 }
 
+/* Footer Styles */
+footer {
+    font-family: 'Poppins', sans-serif
+}
+
+footer div {
+    background-color: #0B2830;
+    color: #35CDE8;
+}
+
+footer p, p.title {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2.title {
+    color: #adff2f;
+    margin-bottom: 10px;
+}
+
+p.title {
+    color: #adff2f;
+}
+
+footer div.row-footer {
+    display: flex;
+    align-items: center;
+}
+
+footer div.col-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /* Body Styles */
 body div.container-fluid {
     padding-left: 0;
@@ -105,39 +139,7 @@ div.row ul.lst-el li {
     padding-bottom: 10px;
 }
 
-/* Carousel */
-
-
-/* Footer Styles */
-footer {
-    font-family: 'Poppins', sans-serif
-}
-
-footer div {
-    background-color: #0B2830;
-    color: #35CDE8;
-}
-
-footer p, p.title {
-    margin-bottom: 0;
-    text-align: center;
-}
-
-h2.title {
-    color: #adff2f;
-    margin-bottom: 10px;
-}
-
-p.title {
-    color: #adff2f;
-}
-
-footer div.row-footer {
-    display: flex;
-    align-items: center;
-}
-
-footer div.col-6 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+/* Cake Maker Styles */
+div.bg {
+    background-color: #A2ACBA;
 }
