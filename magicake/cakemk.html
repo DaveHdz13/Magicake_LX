@@ -64,14 +64,17 @@
                         <input type="email" placeholder="Enter your email">
                     </div>
                     <div class="input">
-                        <span>Name</span>
-                        <input type="text" placeholder="Enter your name">
+                        <span>Payment Method</span>
+                        <select id="pay_method" name="pay_method">
+                            <option value="cash">On Cash</option>
+                            <option value="credit">Credit Card</option>
+                        </select>
                     </div>
                 </div>
             </form>
             <form action="">
-                <div class="selectorsBox">
-                    <div class="selectors">
+                <div class="inputBox">
+                    <div class="input">
                         <span>Cake Selection</span>
                         <select id="cakes" name="cakes">
                             <option value="f_cake">Fairy Cake</option>
@@ -80,7 +83,7 @@
                             <option value="w_cake">Wizard Cake</option>
                         </select>
                     </div>
-                    <div class="selectors">
+                    <div class="input">
                         <span>Additives</span>
                         <select id="additives" name="additives">
                             <option value="additive01">White Chocolate Ganache</option>
@@ -91,6 +94,22 @@
                         </select>
                     </div>
                 </div>
+                <form action="">
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Ingridients Description</span>
+                            <textarea name="description"
+                                placeholder="Enter a description of extra ingridientes you want to add"></textarea>
+                        </div>
+                    </div>
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Leave a Comment</span>
+                            <textarea name="comment"
+                                placeholder="Enter a costumer comment about what to imptove"></textarea>
+                        </div>
+                    </div>
+                </form>
             </form>
             <input type="submit" value="Make Order" class="btn btn-primary">
         </div>

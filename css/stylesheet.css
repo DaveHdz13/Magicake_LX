@@ -143,3 +143,53 @@ div.row ul.lst-el li {
 div.bg {
     background-color: #A2ACBA;
 }
+
+/* Froms in Cake Maker */
+div.bg form {
+    width: 50rem;
+    border-radius: 12px;
+    border: 2px solid rgba(0, 0, 0, .2);
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+}
+
+div.bg form div.inputBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.bg form div.inputBox div.input {
+    width: 45%;
+}
+
+
+div.bg form div.inputBox div.input span {
+    display: block;
+    padding: .5rem 0;
+    font-size: 1rem;
+    color: var(--light-color);
+}
+
+/* Input Style */
+div.bg form div.inputBox div.input input,
+div.bg form div.inputBox div.input textarea {
+    background: #eee;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    color: var(--black);
+    text-transform: none;
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+div.bg form div.inputBox div.input textarea {
+    height: 20rem;
+    resize: none;
+}
+
+div.bg input.btn {
+    margin: 20px;
+}
