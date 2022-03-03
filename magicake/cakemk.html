@@ -41,36 +41,60 @@
 </header>
 
 <body>
-    <div class="container-fluid bg">
-        <h1>You know magic?</h1>
-        <h2>Create a magicake with your own knowledge!</h2>
-        <form action="">
-            <div class="inputBox">
-                <div class="input">
-                    <span>Name</span>
-                    <input type="text" placeholder="Enter your name">
+    <section>
+        <div class="container-fluid bg">
+            <h1>You know magic?</h1>
+            <h2>Create a magicake with your own knowledge!</h2>
+            <form action="">
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Name</span>
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="input">
+                        <span>Phone Number</span>
+                        <input type="phone" placeholder="Enter your phone number">
+                    </div>
                 </div>
-                <div class="input">
-                    <span>Phone Number</span>
-                    <input type="text" placeholder="Enter your phone number">
+            </form>
+            <form action="">
+                <div class="inputBox">
+                    <div class="input">
+                        <span>E-mail</span>
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+                    <div class="input">
+                        <span>Name</span>
+                        <input type="text" placeholder="Enter your name">
+                    </div>
                 </div>
-            </div>
-        </form>
-        <form action="">
-            <div class="inputBox">
-                <div class="input">
-                    <span>Name</span>
-                    <input type="text" placeholder="Enter your name">
+            </form>
+            <form action="">
+                <div class="selectorsBox">
+                    <div class="selectors">
+                        <span>Cake Selection</span>
+                        <select id="cakes" name="cakes">
+                            <option value="f_cake">Fairy Cake</option>
+                            <option value="d_cake">Dragon Cake</option>
+                            <option value="p_cake">Princess Cake</option>
+                            <option value="w_cake">Wizard Cake</option>
+                        </select>
+                    </div>
+                    <div class="selectors">
+                        <span>Additives</span>
+                        <select id="additives" name="additives">
+                            <option value="additive01">White Chocolate Ganache</option>
+                            <option value="additive02">Dark Chocolate Ganache</option>
+                            <option value="additive03">Blackberry Jam</option>
+                            <option value="additive04">Lemon Crud</option>
+                            <option value="additive05">Raspberry Jam</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="input">
-                    <span>Name</span>
-                    <input type="text" placeholder="Enter your name">
-                </div>
-            </div>
-        </form>
-
-        <input type="submit" value="order" class="btn btn-primary">
-    </div>
+            </form>
+            <input type="submit" value="Make Order" class="btn btn-primary">
+        </div>
+    </section>
 </body>
 
 <footer>
